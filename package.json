@@ -1,0 +1,23 @@
+{
+  "name": "saucedemo-playwright-cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:headed": "cucumber-js",
+    "test:login": "cucumber-js features/login.feature",
+    "test:cart": "cucumber-js features/cart.feature",
+    "test:checkout": "cucumber-js features/checkout.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "@playwright/test": "^1.58.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
