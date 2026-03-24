@@ -43,7 +43,7 @@ saucedemo-playwright-cucumber/
 - Agregar producto al carrito
 - Validar cantidad de productos
 
-### 🧾 Checkout
+###  Checkout
 - Flujo completo de compra:
     - Login
     - Agregar producto
